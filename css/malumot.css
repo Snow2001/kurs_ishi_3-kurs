@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .wrapper {
+  width: 1200px;
+  height: 100vh;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .wrapper .box-1 {
+  width: 25%;
+  border: 1px solid black;
+}
+
+body .wrapper .box-2 {
+  width: 40%;
+  border: 1px solid black;
+}
+
+body .wrapper .box-3 {
+  width: 25%;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=malumot.css.map */

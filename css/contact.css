@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E5E5E5;
+  box-sizing: border-box;
+  position: relative; }
+  body .wrapper {
+    width: 1005px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-image: url("../img/Rectangle 6.5.png");
+    background-repeat: no-repeat;
+    background-size: 160px 290px;
+    background-position: -50px -10px; }
+    body .wrapper .fon {
+      position: absolute;
+      right: 0;
+      bottom: -330px; }
+    body .wrapper h1 {
+      text-align: center;
+      padding-top: 122px;
+      font-size: 32px;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-bottom: 60px; }
+    body .wrapper .block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; }
+      body .wrapper .block .box {
+        width: 245px;
+        height: 235px;
+        margin: 0 9px;
+        position: relative; }
+        body .wrapper .block .box .rasm {
+          width: 145px;
+          height: 107px;
+          z-index: 1;
+          position: absolute;
+          top: 0;
+          left: 50px;
+          position: relative; }
+          body .wrapper .block .box .rasm .belgi {
+            width: 145px;
+            height: 145px;
+            border: 8px solid #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            top: -4px;
+            left: -4px; }
+        body .wrapper .block .box .content {
+          width: 245px;
+          height: 200px;
+          background-color: #fffdf6;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+          position: absolute;
+          bottom: -60px;
+          left: 0; }
+          body .wrapper .block .box .content h3 {
+            text-align: center;
+            padding-top: 60px; }
+          body .wrapper .block .box .content p {
+            font-size: 14px;
+            text-align: center;
+            color: #eb9a67; }
+
+/*# sourceMappingURL=main.css.map */
